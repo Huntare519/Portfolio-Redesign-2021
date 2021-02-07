@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.btn {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  border-radius: 10 px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 20px;
+  border: 0.5px solid #ff4838;
+  padding: 5px 10px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  color: white;
+}
+
+.name-primary {
+  font-family: "Lato", sans-serif;
+  font-weight: bold; /*normal font weight */
+  color: white;
+  font-size: 50px;
+  width: 100; 
+  margin: 10 px;
+}
+.subhead {
+  font-family: "Lato", sans-serif;
+  width: 100;
+  font-weight: 200;
+  color: black;
+  margin-top: 15px;
+}
+
+.hunter {
+  font-family: "Leto", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.things-about-me {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  margin-top: 3px;
+}
+
+/** Used in AboutPhoto.jsx to style the Profile Picture*/
+.outside {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 324px;
+  height: 387px;
+  border-radius: 8px;
+  margin-top: 37px;
+}
+
+.img-align-right {
+  vertical-align: bottom;
+}
+
+.outside:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 25px;
+  border: 2px solid #ffffff;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/** Used for iPhone XR */
+@media only screen and (max-width: 414px) {
+  .name-primary {
+    font-family: "Lato", sans-serif;
+    font-weight: bold; /*normal font weight */
+    color: white;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .subhead {
+    font-family: "Lato", sans-serif;
+    width: 100;
+    font-weight: 200;
+    color: black;
+    margin-bottom: 25px;
+  }
+
+  .hunter {
+    font-family: "Leto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .things-about-me {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    margin-top: 3px;
+  }
+
+  .outside {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image {
+    display: block;
+    height: 300px;
+    width: 251px;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+
+  .img-align-right {
+    vertical-align: bottom;
+  }
+
+  .outside:after {
+    content: "";
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}

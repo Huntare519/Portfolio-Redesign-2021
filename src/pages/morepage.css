@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+.row-height-more {
+  height: 605px;
+}
+
+.row-header-more {
+  height: 90px;
+}
+
+.more-text {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}

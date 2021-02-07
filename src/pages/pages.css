@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
+/** CSS used in all pages*/
+.header {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.hor-line {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  height: 0.3;
+}
+
+.hor-line-cards {
+  color: black;
+  background-color: black;
+  border-color: #ffffff;
+  height: 0.1;
+}
+
+/** start of CSS for StudiesPage.jsx */
+.first-div {
+  height: 100;
+}
+
+
+.header-2 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
+.about-me {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 20px;
+}
+
+.classes {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+  margin: 5px;
+}
+
+.a-studies {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+
+/** start of CSS for AboutPage.jsx */
+.first-row {
+  height: 70px;
+}
+
+.second-row {
+  height: 100;
+}
+
+.third-row {
+  height: 50px; 
+}
+
+
+/** start of CSS for ProjectsPage.js*/
+.col-width {
+  width: 100%;
+}
+
+.row-height-projects {
+  height: 100%;
+}
+
+.row-header-projects {
+  height: 100%;
+}
+
+.row-height-2-projects {
+  height: 100%;
+  margin-top: 15px;
+}
+
+.project-cards {
+  background-color: #ffffff;
+  color: black;
+  margin-top: 5px;
+  width: 100;
+}
+
+.scale-img {
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid black;
+}

@@ -1,0 +1,74 @@
+body {
+  background: #202020;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -100;
+}
+
+.a {
+  text-decoration: none;
+  color: #9f9f9f;
+}
+
+.column {
+  height: 210px;
+}
+
+.row-1 {
+  height: 170px;
+}
+
+.row-2 {
+  height: 400px;
+}
+
+.row-3 {
+  height: 150px;
+}
+
+.contact {
+  color: #ffffff;
+  font-size: 13px;
+  position: relative;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 414px) {
+  .contact {
+    color: #ffffff;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .row-1 {
+    height: 100px;
+  }
+
+  .row-2 {
+    height: 450px;
+  }
+
+  .row-3 {
+    height: 130px;
+    margin-top: 20px;
+  }
+}
+
+.margin-sm {
+  margin-right: 10px;
+  margin-left: 10px;
+}
