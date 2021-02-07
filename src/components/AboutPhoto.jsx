@@ -7,7 +7,7 @@ class AboutPhoto extends Component {
   render() {
     return (
       <div className="outside image">
-        <img src={hunterPhoto} alt="hunter profile" className="image"></img>
+        <img src={hunterPhoto} alt="hunter profile photo with LOTR" className="image"></img>
       </div>
     );
   }
